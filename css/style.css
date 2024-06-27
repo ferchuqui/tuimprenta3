@@ -88,7 +88,7 @@ ol, ul {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    box-sizing: border-box; 
 }
 #section2{
     display: flex;
