@@ -140,9 +140,9 @@ ol, ul {
     color: #fff;
     }
 .nuestrosproductos{
-    display: grid;
+    display: flex;
 
-    grid-template-columns: repeat(3, 1fr);
+    width: 33%;
     gap: 20px;
     margin: 0 auto;
     padding: 0 20px;
@@ -224,7 +224,8 @@ ol, ul {
     }
 
     .nuestrosproductos {
-        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+        display: flex;
+        width: 100%;
     }
 
     .card {
@@ -274,7 +275,12 @@ ol, ul {
             display: flex;
         } */
 
-
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .card {
+            width: 40%;
+            margin: 10px 0;
+        }
+    }
 
     .embed-responsive {
         height: 200px; /* Ajusta la altura para dispositivos móviles */
